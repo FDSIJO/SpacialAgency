@@ -1,0 +1,9 @@
+C:\Users\Flori\IdeaProjects\SpacialAgency\src\main\java\org\sijoexercise\Main.java
+C:\Users\Flori\IdeaProjects\SpacialAgency\src\main\java\org\sijoexercise\enums\Direction.java
+C:\Users\Flori\IdeaProjects\SpacialAgency\src\main\java\org\sijoexercise\enums\DroneCommand.java
+C:\Users\Flori\IdeaProjects\SpacialAgency\src\main\java\org\sijoexercise\exceptions\BadInputsException.java
+C:\Users\Flori\IdeaProjects\SpacialAgency\src\main\java\org\sijoexercise\helpers\SpacialAgencyCreator.java
+C:\Users\Flori\IdeaProjects\SpacialAgency\src\main\java\org\sijoexercise\models\Coordinates.java
+C:\Users\Flori\IdeaProjects\SpacialAgency\src\main\java\org\sijoexercise\models\Drone.java
+C:\Users\Flori\IdeaProjects\SpacialAgency\src\main\java\org\sijoexercise\models\Grid.java
+C:\Users\Flori\IdeaProjects\SpacialAgency\src\main\java\org\sijoexercise\models\SpacialAgency.java
