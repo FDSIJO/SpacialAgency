@@ -1,18 +1,14 @@
-package org.sijoexercise.helpers;
+package org.sijoexercise.models;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
 import org.sijoexercise.enums.Direction;
 import org.sijoexercise.enums.DroneCommand;
-import org.sijoexercise.models.Coordinates;
-import org.sijoexercise.models.Drone;
-import org.sijoexercise.models.Grid;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 
-public class SpacialAgencyTest {
+public class GridTest {
 
     private Grid grid;
 
@@ -172,7 +168,7 @@ public class SpacialAgencyTest {
     class CommandSequence {
 
         @Test
-        void lflf_fromNorthCenter_shouldFaceSouth() {
+        void test66_21E_FFLFFRFF() {
             Drone drone = new Drone(1, new Coordinates(2, 1, Direction.E));
             grid.move(drone, DroneCommand.F);
             grid.move(drone, DroneCommand.F);
@@ -188,7 +184,7 @@ public class SpacialAgencyTest {
         }
 
         @Test
-        void rotationComplete_fourRights_shouldReturnToOriginalDirection() {
+        void test66_03N_FFRFFLFFF() {
             Drone drone = new Drone(1, new Coordinates(0, 3, Direction.N));
             grid.move(drone, DroneCommand.F);
             grid.move(drone, DroneCommand.F);
